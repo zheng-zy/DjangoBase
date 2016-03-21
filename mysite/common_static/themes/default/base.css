@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{ font-size: 62.5%; }
+body {margin:0; padding:0; font-family: "微软雅黑",san-serif; color: #333; background:#fff; font-size: 1.6rem; overflow-x: hidden; overflow-x: hidden; }
+i{ display: inline-block; vertical-align: middle; background-position: center; background-repeat: no-repeat; background-size: cover !important; }
+textarea{ resize: none; }
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+a{ text-decoration: none; }
+
+/*登录-pc端*/
+.login-pc{ background: url(images/login_bg.png) repeat-x center; background-size: 100% 100%; position: relative; }
+.login-main{ height: 300px; position: absolute; top: 50%; margin-top: -150px; left: 0; width: 100%; }
+.login-main .login-logo, .login-main .login-form{ width: 45%; height: 300px; float: left; text-align: center; box-sizing: border-box; }
+.login-logo{ border-right: 2px solid #fff; padding-top: 50px; margin-left: 5%; }
+.login-title{ margin-bottom: 60px; }
+.login-form input{ width: 180px; height: 28px; line-height: 28px; border: 2px solid #53a9e4; border-radius: 5px; margin-bottom: 24px; box-shadow: 2px 2px 2px #666; text-indent: 10px; color: #666; }
+.login-form form span{ color: #fff; font-size: 22px; vertical-align: top; }
+.icon-question{ background-image: url(images/icon_question.png); width: 29px; height: 28px; }
+.icon-blank{ background-image: url(images/icon_blank.png); width: 29px; height: 28px; }
+.icon-filesave{ background-image: url(images/icon_filesave.png); width: 29px; height: 28px; }
+.login-form .form-btns{ margin-top: 30px; }
+.login-form .form-btns a{ border: 2px solid #53a9e4; height: 28px; line-height: 28px; display: inline-block; color: #53a9e4; padding: 0 25px; font-size: 18px; font-weight: bold; background: #fff; border-radius: 5px; }
+.login-form .form-btns a:hover{ background: #87cff7; color: #fff; }
+
+/*头部*/
+.header{ height: 68px; width: 100%; background: #5fb9e7 url(images/header_bg.png) no-repeat center; background-size: 100% 100%; padding-top: 6px; }
+.header .logo{ background: url(images/header_logo.png) no-repeat center; display: inline-block; width: 530px; height: 60px; margin-left: 10px; }
+.header-info{ float: right; height: 25px; line-height: 25px; color: #fff; margin-top: 38px; font-size: 14px; margin-right: 10px; }
+i.icon-logout{ display: inline-block; vertical-align: middle; background: url(images/icon_logout.png) no-repeat center; width: 14px; height: 18px; }
